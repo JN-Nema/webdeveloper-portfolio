@@ -188,3 +188,52 @@ main{
     margin-bottom: 50px;
   
 }
+#connect {
+    text-align: start;
+}
+.ico-img>ul{
+    display: flex;
+    
+}
+.ico-img li{
+    list-style: none;
+    justify-content: space-around;
+}
+#name{
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+}
+#msg{
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background:  #FFF;
+    margin-bottom: 20px;
+}
+#email{
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);    
+}
+.last{
+    background: #FFF8F3;
+    display: flex;
+    justify-content:space-between;
+}
+.contact input {
+    display: block;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    padding: 18px 35px;
+}
+#connect{
+    
+    margin: 20px 20px;
+}  
+
